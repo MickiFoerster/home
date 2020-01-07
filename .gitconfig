@@ -1,0 +1,12 @@
+[diff]
+	tool = vimdiff
+[merge]
+	tool = vimdiff
+[color]
+	ui = true
+[core]
+	editor = vim
+[difftool]
+	prompt = false
+[alias]
+	d = difftool
