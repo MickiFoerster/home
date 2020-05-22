@@ -270,3 +270,4 @@ au Filetype go nnoremap <leader>t :tab split <CR>:exe "GoDef" <CR>
 map <C-K> ggVG :py3f /home/micki/workspace/external-projects/llvm/tools/clang/tools/clang-format/clang-format.py<CR>
 imap <C-K> <c-o>:py3f /home/micki/workspace/external-projects/llvm/tools/clang/tools/clang-format/clang-format.py<CR>
 
+autocmd FileType go nnoremap <C-]> :GoDef<CR>
